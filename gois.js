@@ -29,7 +29,7 @@ fis.config.merge({
                 isMod : true,
                 id : '${namespace}/widget/$1',
                 url : '${namespace}/widget/$1',
-                release : '/view/${namespace}/widget/$1'
+                release : '/views/${namespace}/widget/$1'
             },
             {
                 reg : /^\/widget\/(.*\.(js|css))$/i,
@@ -40,7 +40,7 @@ fis.config.merge({
                 reg : /^\/page\/(.+\.tpl)$/i,
                 isMod: true,
                 id : '${namespace}/widget/$1',
-                release : '/view/${namespace}/page/$1',
+                release : '/views/${namespace}/page/$1',
                 extras: {
                     isPage: true
                 }
@@ -54,10 +54,7 @@ fis.config.merge({
                 release: '/$1/${namespace}/$2'
             },
             {
-                reg : /^\/(plugin|server\.conf$|smarty\.conf$)|\.php$/i
-            },
-            {
-                reg: "domain.conf",
+                reg: ".*\.conf",
                 release: '/conf/$&'
             },
             {
