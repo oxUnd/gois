@@ -15,7 +15,7 @@ fis.config.merge({
         },
         postprocessor: {
             tpl: 'require-async',
-            js: 'jswrapper, go-require-async'
+            js: 'jswrapper, require-async'
         }
     },
     roadmap : {
