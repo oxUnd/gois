@@ -1,0 +1,27 @@
+{
+  "name": "gois",
+  "version": "0.0.1",
+  "description": "Front End Integrated Solution for Beego",
+  "main": "gois.js",
+  "bin": {
+    "gois": "bin/gois"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiangshouding/gois.git"
+  },
+  "dependencies": {
+    "fis": "1.5.1",
+    "fis-parser-bdtmpl": "0.0.3",
+    "fis-parser-less": "0.0.8"
+  },
+  "keywords": [
+    "fis",
+    "gois"
+  ],
+  "author": "xiangshouding",
+  "license": "MIT"
+}
