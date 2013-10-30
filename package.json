@@ -17,6 +17,8 @@
     "fis": "1.5.1",
     "fis-parser-bdtmpl": "0.0.3",
     "fis-parser-less": "0.0.8"
+    "fis-preprocessor-extlang": "0.0.6",
+    "fis-postprocessor-require-async": "0.0.6"
   },
   "keywords": [
     "fis",
