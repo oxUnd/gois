@@ -27,7 +27,6 @@ fis.config.merge({
             {
                 reg : /^\/widget\/(.*\.tpl)$/i,
                 isMod : true,
-                id : '${namespace}/widget/$1',
                 url : '${namespace}/widget/$1',
                 release : '/views/${namespace}/widget/$1'
             },
@@ -39,7 +38,7 @@ fis.config.merge({
             {
                 reg : /^\/page\/(.+\.tpl)$/i,
                 isMod: true,
-                id : '${namespace}/widget/$1',
+                url : '${namespace}/widget/$1',
                 release : '/views/${namespace}/page/$1',
                 extras: {
                     isPage: true
