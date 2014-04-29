@@ -1,6 +1,6 @@
 {
   "name": "gois",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Front End Integrated Solution for Beego",
   "main": "gois.js",
   "bin": {
