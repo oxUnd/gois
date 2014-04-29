@@ -1,6 +1,6 @@
 ## GoIS
 
-GoIs: Front End Integrated Solution for Beego
+GoIs: Front End Integrated Solution for Golang
 
 ### Example
 
